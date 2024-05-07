@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node start.js",
-    "build": "cat ./node_modules/gun/examples/jquery.js ./node_modules/gun/gun.js ./node_modules/gun/sea.js ./node_modules/gun/as.js > joy.min.js && cp ./node_modules/gun/examples/style.css ./joy.css",
+    "build": "concat -o joy.min.js ./node_modules/gun/examples/jquery.js ./node_modules/gun/gun.js ./node_modules/gun/sea.js ./node_modules/gun/as.js  && shx cp  ./node_modules/gun/examples/style.css ./joy.css",
     "test": "mocha"
   },
   "repository": {
@@ -32,5 +32,10 @@
   "homepage": "https://github.com/eraeco/joydb#readme",
   "dependencies": {
     "gun": "~>0.2020.1232"
+  },
+  "devDependencies": {
+    "concat-cli": "^4.0.0",
+    "copyfiles": "^2.4.1",
+    "shx": "^0.3.4"
   }
 }

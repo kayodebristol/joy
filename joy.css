@@ -1,7 +1,7 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  position: relative;
+	margin: 0;
+	padding: 0;
+	position: relative;
   line-height: 1.5;
   font-size: 18pt;
   f-ont-size: max(18pt, 2?vw);
@@ -26,7 +26,7 @@ a, button, input, textarea {
   outline: none;
 }
 input:not([type=button]):not([type=submit]), textarea {
-  width: 100%;
+	width: 100%;
 }
 
 a:focus, button:focus, input[type=button]:focus, input[type=submit]:focus {
@@ -215,13 +215,13 @@ p + p {
   -webkit-animation: hue2 900s infinite;
   animation: hue2 900s infinite;
 } @keyframes hue2 {
-  0%   {background-color: #ea3224;}
+  0%	 {background-color: #ea3224;}
   25%  {background-color: #4D79D8;}
   50%  {background-color: #33cc33;}
   75%  {background-color: #d3a438;}
   100% {background-color: #ea3224;}
 } @-webkit-keyframes hue2 {
-  0%   {background-color: #ea3224;}
+  0%	 {background-color: #ea3224;}
   25%  {background-color: #4D79D8;}
   50%  {background-color: #33cc33;}
   75%  {background-color: #d3a438;}
@@ -233,13 +233,13 @@ p + p {
   -webkit-animation: huet2 900s infinite;
   animation: huet2 900s infinite;
 } @keyframes huet2 {
-  0%   {color: #ea3224;}
+  0%	 {color: #ea3224;}
   25%  {color: #4D79D8;}
   50%  {color: #33cc33;}
   75%  {color: #d3a438;}
   100% {color: #ea3224;}
 } @-webkit-keyframes huet2 {
-  0%   {color: #ea3224;}
+  0%	 {color: #ea3224;}
   25%  {color: #4D79D8;}
   50%  {color: #33cc33;}
   75%  {color: #d3a438;}
@@ -251,13 +251,13 @@ p + p {
   -webkit-animation: hue3 900s infinite;
   animation: hue3 900s infinite;
 } @keyframes hue3 {
-  0%   {background-color: #33cc33;}
+  0%	 {background-color: #33cc33;}
   25%  {background-color: #d3a438;}
   50%  {background-color: #ea3224;}
   75%  {background-color: #4D79D8;}
   100% {background-color: #33cc33;}
 } @-webkit-keyframes hue3 {
-  0%   {background-color: #33cc33;}
+  0%	 {background-color: #33cc33;}
   25%  {background-color: #d3a438;}
   50%  {background-color: #ea3224;}
   75%  {background-color: #4D79D8;}
@@ -269,13 +269,13 @@ p + p {
   -webkit-animation: huet3 900s infinite;
   animation: huet3 900s infinite;
 } @keyframes huet3 {
-  0%   {color: #33cc33;}
+  0%	 {color: #33cc33;}
   25%  {color: #d3a438;}
   50%  {color: #ea3224;}
   75%  {color: #4D79D8;}
   100% {color: #33cc33;}
 } @-webkit-keyframes huet3 {
-  0%   {color: #33cc33;}
+  0%	 {color: #33cc33;}
   25%  {color: #d3a438;}
   50%  {color: #ea3224;}
   75%  {color: #4D79D8;}
@@ -290,13 +290,13 @@ p + p {
   0%   {background-color: #d3a438;}
   25%  {background-color: #ea3224;}
   50%  {background-color: #4D79D8;}
-  75%  {background-color: #33cc33;}
+  75%	 {background-color: #33cc33;}
   100% {background-color: #d3a438;}
 } @-webkit-keyframes hue4 {
   0%   {background-color: #d3a438;}
   25%  {background-color: #ea3224;}
   50%  {background-color: #4D79D8;}
-  75%  {background-color: #33cc33;}
+  75%	 {background-color: #33cc33;}
   100% {background-color: #d3a438;}
 }
 
@@ -308,13 +308,13 @@ p + p {
   0%   {color: #d3a438;}
   25%  {color: #ea3224;}
   50%  {color: #4D79D8;}
-  75%  {color: #33cc33;}
+  75%	 {color: #33cc33;}
   100% {color: #d3a438;}
 } @-webkit-keyframes huet4 {
   0%   {color: #d3a438;}
   25%  {color: #ea3224;}
   50%  {color: #4D79D8;}
-  75%  {color: #33cc33;}
+  75%	 {color: #33cc33;}
   100% {color: #d3a438;}
 }
 
@@ -338,4 +338,15 @@ p + p {
 } @keyframes joy {
   0% {background-position: 0 0;}
   100% {background-position: -2800px 0;}
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
